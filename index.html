@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en-us">
 <head>
@@ -35,10 +34,33 @@
 
 		<h2>Projects</h2>
 		<p>Here are some projects worked on by a group projects our house at Resilient Coders worked on together</p>
+<!-- **********************************************Attendance Project starts here******************************************************************************************************************************************************** -->
+
 		<h3>Attendance</h3>
 		<p>Simple Attendance list as an introduction to Javascript concepts</p>
-		<h3>Carousel</h3>
-		<p>Images rotating to create a Carousel effect</p>
+		<section class="containerStudentList">
+			<section class="containerBox">
+				<section class="containerList">
+					<h1> Enter a Students Name</h1>
+					<input id="studentIputBox" type="text" placeholder="Enter the Students Name"  >   <!-- pattern= "^[A-Za-z]+" -->
+					<span class="message" aria-live="polite"></span>
+					<section class="buttonContainer">
+						<button>Save Student Name</button>
+						<button>Get list</button>
+					</section>
+					<h2>Student Attendance<h2>
+					<ul class="studentAttendace"></ul>
+				</section>
+			</section>
+		</section>
+
+<!-- **********************************************Attendance Project starts here******************************************************************************************************************************************************** -->
+
+		<section class="containerCarousel" >
+			<h3>Carousel</h3>
+			<p>Images rotating to create a Carousel effect</p>
+		</section>
+
 	</section>
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
